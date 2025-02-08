@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.group:hover .group-hover\:block {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.movie-list:hover .movie-overlay {
+  opacity: 1;
+}
+
+.movie-swiper-container {
+  margin: 0 auto;
+  padding: 100px 0 47px;
+}
+
+.swiper-slide {
+  padding: 20px 0;
+}
+
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  opacity: .5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #E74C3C;
+  border-radius: 8px;
+  opacity: 1;
+  width: 60px;
+}
