@@ -74,5 +74,5 @@ Jika Anda ingin berkontribusi, silakan fork repository ini dan ajukan pull reque
 
 ---
 
-💡 Dibuat dengan ❤️ oleh [Nama Anda]
+💡 Dibuat dengan ❤️ oleh Romy Rudiansah
 
