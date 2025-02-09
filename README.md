@@ -35,6 +35,10 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek secar
    OMDB_API_KEY=your_api_key_here
    OMDB_API_BASE=https://www.omdbapi.com/
    ```
+   Atau 
+   ```
+   cp .env.example .env
+   ```
    > **Catatan:** Ganti `your_api_key_here` dengan API key Anda dari [OMDb API](https://www.omdbapi.com/apikey.aspx).
 
 4. **Jalankan proyek dalam mode pengembangan**
